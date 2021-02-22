@@ -1,0 +1,21 @@
+BODY {
+    width: 250px; 
+    min-height: 350px;
+}
+
+#wrapper {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+#title-text {
+    font-size: 40px;
+}
+
+#body-text {
+    font-size: 20px;
+    font-family:fantasy;
+}
