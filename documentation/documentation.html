@@ -6,15 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Black Mirror</title>
   <link rel="icon" type="image/png" href="logo.jpg"/>
-  <script src="../blackmirror.js"></script> 
+  <script src="../blackmirror.js">test();</script> 
+  <script> chrome.tabs.executeScript({file:'../blackmirror.js'}); test();</script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/codemirror.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/theme/dracula.min.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 </head>
+
 <body>
-  <script>test();</script>
     <div class="container-fluid documentation">
       <div class="row">
         <div class="col-md-3 col-xl-2 left-sidebar">
@@ -56,25 +58,10 @@
                         <tr>
                           <th scope="col">#</th>
                           <th scope="col">URL</th>
-                          <th scope="col">Last</th>
+                          <th scope="col">Inspect</th>
                         </tr>
                       </thead>
                       <tbody id="url-table">
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                        </tr>
                       </tbody>
                     </table>
                 </div>

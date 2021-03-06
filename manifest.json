@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
   
-    "name": "example_chromeExtension",
+    "name": "BlackMirror",
     "description": "Black Mirror allows code detection in one tab",
     "version": "1.0.0",
   
